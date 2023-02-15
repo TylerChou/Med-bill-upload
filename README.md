@@ -14,14 +14,17 @@ This is a simple medical bill upload service using Node and Express.
 
 3. Install the dependencies
 
-    ```npm install
+    ```sh
+    npm install```
 
 
 4. Start the server
 
-    ```npm start
+    ```sh
+    npm start```
 
 
 5. Test endpoints
 
-    ```npm test
+    ```sh
+    npm test```

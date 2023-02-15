@@ -13,13 +13,13 @@ This is a simple medical bill upload service using Node and Express.
    cd medical-bill-upload-service```
 
 3. Install the dependencies
-```
-npm install```
+
+```npm install```
 
 4. Start the server
-```
-npm start```
+
+```npm start```
 
 5. Test endpoints
-```
-npm test```
+
+```npm test```

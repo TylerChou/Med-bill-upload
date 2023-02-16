@@ -17,12 +17,24 @@ This is a simple medical bill upload service using Node and Express.
     ```sh
     npm install
 
-4. Start the server
+4. To start the application, run the command: `npm start`
 
-    ```sh
-    npm start
+   The application will start on `http://localhost:3000`.
 
-5. Test endpoints
+## API Endpoints
 
-    ```sh
-    npm test
+### GET /items
+
+Returns a list of medical bills.
+
+### POST /items
+
+Creates a new medical bill.
+
+A medical bill should be in JSON format and have the following properties:
+
+- `patient_name`: a string representing the name of the patient
+- `patient_address`: a string representing the address of the patient
+- `hospital_name`: a string representing the name of the hospital
+- `date_of_service`: a string representing the date of the medical service in `YYYY-MM-DD` format
+- `bill_amount`: a number representing the amount of the medical bill

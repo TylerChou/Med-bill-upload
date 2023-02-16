@@ -35,8 +35,8 @@ Creates a new medical bill.
 
 A medical bill should be in JSON format and have the following properties:
 
-- `patient_name`: a string representing the name of the patient
-- `patient_address`: a string representing the address of the patient
-- `hospital_name`: a string representing the name of the hospital
-- `date_of_service`: a string representing the date of the medical service in `YYYY-MM-DD` format
-- `bill_amount`: a number representing the amount of the medical bill
+- `patientName`: a string representing the name of the patient
+- `patientAddress`: a string representing the address of the patient
+- `hospitalName`: a string representing the name of the hospital
+- `dateOfService`: a string representing the date of the medical service in `YYYY-MM-DD` format
+- `billAmount`: a number representing the amount of the medical bill

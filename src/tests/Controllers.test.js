@@ -8,7 +8,6 @@ const { describe } = require('yargs');
 const test_bill = new bill ("Tyler", "1065 Kings Court", "John Hospital" , "2/14/2023", 1000);
 const test_wrong_bill = new bill();
 
-
 it("GET empty /api/bills", async()=>{
     const response = await request(app).get('/api/bills');
     expect(response.statusCode).toEqual(200);

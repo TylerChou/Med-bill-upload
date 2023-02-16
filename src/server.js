@@ -8,9 +8,13 @@ app.use(express.json());
 
 app.use('/api/bills', billsRoutes);
 
-const PORT = process.env.PORT || 3000;
-console.log(`process.env.PORT: ${process.env.PORT}`);
+app.get('*', (req, res) => {
+    res.status(404).json({ message: 'Route Not Found, please navigate to /api/bills' });
+});
 
+const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
   console.log(`Server listening on port ${PORT}`);
 });
+
+module.exports = app;

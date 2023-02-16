@@ -1,17 +1,26 @@
 {
-  
   "name": "med-bill-upload",
   "description": "A simple medical bill upload API service",
   "version": "1.0.0",
   "main": "src/server.js",
-  "devDependencies": {},
   "dependencies": {
     "express": "^4.18.2"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node src/server.js",
+    "test": "jest --coverage"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "jest": {
+    "testEnvironment": "node",
+    "coveragePathIgnorePatterns": [
+      "/node_modules/"
+    ]
+  },
+  "devDependencies": {
+    "jest": "^29.4.3",
+    "supertest": "^6.3.3"
+  }
 }

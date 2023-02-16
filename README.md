@@ -25,11 +25,11 @@ This is a simple medical bill upload service using Node and Express.
 
 ## API Endpoints
 
-### GET /items
+### GET /api/bills
 
 Returns a list of medical bills.
 
-### POST /items
+### POST /api/bills
 
 Creates a new medical bill.
 

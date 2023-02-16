@@ -10,7 +10,7 @@ This is a simple medical bill upload service using Node and Express.
 
    ```sh
    git clone https://github.com/YOUR-USERNAME/medical-bill-upload-service.git
-   cd medical-bill-upload-service```
+   cd medical-bill-upload-service
 
 3. Install the dependencies
 

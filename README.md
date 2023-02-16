@@ -21,7 +21,7 @@ This is a simple medical bill upload service using Node and Express.
     ```sh
     npm start
     ```
-   The application will start on `http://localhost:3000`.
+   The application will start on  `http://localhost:3000`.
 
 ## API Endpoints
 

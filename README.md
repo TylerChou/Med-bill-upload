@@ -17,7 +17,9 @@ This is a simple medical bill upload service using Node and Express.
     ```sh
     npm install
 
-4. To start the application, run the command: `npm start`
+4. To start the application, run the command: 
+    ```sh
+    npm start
 
    The application will start on `http://localhost:3000`.
 

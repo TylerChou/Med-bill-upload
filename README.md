@@ -23,6 +23,11 @@ This is a simple medical bill upload service using Node and Express.
     ```
    The application will start on  `http://localhost:3000`.
 
+5. To test the API, run the command: 
+    ```sh
+    npm test
+    ```
+
 ## API Endpoints
 
 ### GET /api/bills
